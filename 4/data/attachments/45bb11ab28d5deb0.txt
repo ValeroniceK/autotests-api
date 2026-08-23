@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTIzVDEyOjAzOjE2LjkxNTczMiIsInVzZXJfaWQiOiJhNTM1YjI5MC1kNWM5LTQ0NzEtOGJkNC04MDA1ZmIwOGQzMDUifQ.XJM7N7WEGIlOQbVVmXDZpmSViVmo6HGxamI2PKgiA7A' \
+  -H 'content-length: 313' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Movie cup significant ask.","maxScore":91,"minScore":9,"description":"Choice late daughter on production measure any ball. Sort recent wear become military PM boy.","estimatedTime":"1 weeks","previewFileId":"fee6e741-23ab-4184-a80b-b6bd9f9517e9","createdByUserId":"a535b290-d5c9-4471-8bd4-8005fb08d305"}'

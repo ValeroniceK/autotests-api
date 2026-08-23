@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTIzVDEyOjAzOjE1LjcyNzkzNyIsInVzZXJfaWQiOiJkYjg0ZTgxYi1hMDlhLTRmZjgtYmQwNy04MWE4NzJlMmQ3YzgifQ.nn-k0xgUEzvdO9t1qf6XXx_Gi-PjYKzOjDWPn-VzRwQ' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Show bed impact instead.","maxScore":96,"minScore":9,"description":"Window like law. Benefit executive us stop dinner.\nPicture by bill despite bed within security. Measure adult item their force.","estimatedTime":"4 weeks","previewFileId":"a54f8f57-3d6a-421b-bec3-55fe664895e0","createdByUserId":"db84e81b-a09a-4ff8-bd07-81a872e2d7c8"}'
