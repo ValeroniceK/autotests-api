@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:22 Check create course response
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Region allow democratic meeting somebody idea piece hard.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 76
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 9
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Computer money feel traditional sea.
+Wrong rather sea activity. Structure need method too. Pm improve matter century skill. Talk job when bag case deep.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 7 weeks
+INFO     BASE_ASSERTIONS:base.py:35 Check that "preview_file_id" equals to 14eff067-a893-4553-b3b3-56db5f22c1dc
+INFO     BASE_ASSERTIONS:base.py:35 Check that "created_by_user_id" equals to ecea7167-3784-4cec-8bf5-06fcc997c673
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

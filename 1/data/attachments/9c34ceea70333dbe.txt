@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTIzVDExOjM4OjE2LjkxMTQ1NSIsInVzZXJfaWQiOiJlY2VhNzE2Ny0zNzg0LTRjZWMtOGJmNS0wNmZjYzk5N2M2NzMifQ.ehe42kZPnZqE93S4h0OPu0a2sgEQJoEb4YmS_MIi90g' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Region allow democratic meeting somebody idea piece hard.","maxScore":76,"minScore":9,"description":"Computer money feel traditional sea.\nWrong rather sea activity. Structure need method too. Pm improve matter century skill. Talk job when bag case deep.","estimatedTime":"7 weeks","previewFileId":"14eff067-a893-4553-b3b3-56db5f22c1dc","createdByUserId":"ecea7167-3784-4cec-8bf5-06fcc997c673"}'

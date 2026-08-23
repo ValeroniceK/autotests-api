@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTIzVDExOjM4OjE4LjM3NjQ0MiIsInVzZXJfaWQiOiJkMmM1NTk4Ni0zMThlLTQ2NDAtOTFkZC00N2Y0ZTZkZTcyOTAifQ.TDFlu-UeKslbMDkahzRVijC908B-HswYJYoy47wwFiA' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Yeah nature might rule contain yard.","maxScore":82,"minScore":22,"description":"Cultural role policy simple all among do admit. Instead environmental short evening.\nMaterial including hold light. Explain computer him term. Worker soldier professor daughter unit hair.","estimatedTime":"9 weeks","previewFileId":"760e8b28-4f04-40dd-bb20-0d585077b8dd","createdByUserId":"d2c55986-318e-4640-91dd-47f4e6de7290"}'
