@@ -46,6 +46,27 @@ jobs:
         run: |
           pytest -m regression --alluredir=allure-results --numprocesses=2
 
+      - name: Upload Allure results
+        uses: actions/upload-artifact@v7  # Сохраняем результаты тестов как артефакт для следующей джобы
+        if: always()
+        with:
+          name: allure-results
+          path: allure-results
+
+  publish-report:
+    runs-on: ubuntu-latest
+    needs: run-tests  # Запускаем эту джобу только после успешного выполнения run-tests
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7  # Используем GitHub Action для клонирования репозитория
+
+      - name: Download Allure results
+        uses: actions/download-artifact@v8  # Загружаем результаты тестов, сохранённые джобой run-tests
+        with:
+          name: allure-results
+          path: allure-results
+
       - name: Get Allure history
         uses: actions/checkout@v7  # Опять клонируем репозиторий, чтобы получить историю отчётов
         if: always()  # Всегда выполняем, независимо от успеха или неудачи предыдущих шагов
