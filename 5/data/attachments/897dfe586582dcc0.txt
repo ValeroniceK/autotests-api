@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/cdec322d-4d6e-471d-8cbf-b0bc2754fac5' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTIzVDEyOjIxOjE5LjAwMjMxMiIsInVzZXJfaWQiOiIxODVjOGYzMC1iNzdiLTQxNmUtYTEwYy01YWNiZThjZDQ3MWQifQ.p6OQN48ic2IoPoTCCIyPyyaBLa_h31-5ySO5TcDlaek' \
+  -H 'content-length: 221' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Police land meet act.","maxScore":83,"minScore":28,"description":"Finish purpose give impact alone. Seven source trouble station spring. Process other dark college movement at former.","estimatedTime":"2 weeks"}'

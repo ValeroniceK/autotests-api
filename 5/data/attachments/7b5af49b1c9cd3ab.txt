@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTIzVDEyOjIxOjIwLjIyMjgzOSIsInVzZXJfaWQiOiJlZDE5YmRhOS01NzlhLTRjY2QtYmM5My1iMTMzMTU4NDYyMTYifQ.Uq7bX3BSYK-8Vb72HPa3BkSjDcdy_B1w5Wu-FqryEv0' \
+  -H 'content-length: 324' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Structure strategy realize however.","maxScore":54,"minScore":30,"description":"Edge condition young gun over sort treatment between. Ball your right agent two become finish.","estimatedTime":"8 weeks","previewFileId":"42e772ee-1448-4fd4-a201-3c65192c4515","createdByUserId":"ed19bda9-579a-4ccd-bc93-b13315846216"}'

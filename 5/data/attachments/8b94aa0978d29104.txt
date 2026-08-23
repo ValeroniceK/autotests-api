@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTIzVDEyOjIxOjE3LjUyNDM2NCIsInVzZXJfaWQiOiIyMzM0OTVlNS1hMWZmLTQ3YmQtYmMwOC0zNDVjNDFmYjA3MmQifQ.CzTb7KfTq0fGjRBmuSMt6llTLAQLuyZBlYL0khDyYBk' \
+  -H 'content-length: 440' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ever hot learn themselves receive debate our.","maxScore":92,"minScore":17,"description":"Their concern drive three debate.\nHim if think lot. Rate throw pressure. White again situation choice security with cultural decision.\nIdea clear senior strategy nice too. Anything my shake similar.","estimatedTime":"4 weeks","previewFileId":"756bb2a4-0817-401f-b6a7-23ef2b7cb891","createdByUserId":"233495e5-a1ff-47bd-bc08-345c41fb072d"}'

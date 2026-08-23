@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTIzVDEyOjIxOjE4LjQyMTE3MCIsInVzZXJfaWQiOiI2ZTk5NzdkNS1mZWY2LTRmYWItOGMyNS1hMGM0MWZiYjNkYzMifQ.9R-m0VFydgGDN7tXgyQE1kIKDb_jwn3ka0yFaMMfvWw' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Born skill pick left everyone challenge.","maxScore":89,"minScore":15,"description":"Soon vote yet tend likely participant. Our imagine ok see administration already. Attorney heart including gun including wonder necessary.","estimatedTime":"1 weeks","previewFileId":"82aba684-8843-48a5-9cb3-735ac024e761","createdByUserId":"6e9977d5-fef6-4fab-8c25-a0c41fbb3dc3"}'

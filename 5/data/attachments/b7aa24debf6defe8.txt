@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTIzVDEyOjIxOjE5LjU5MjEzMCIsInVzZXJfaWQiOiI5MzkxMmNhMC1mNmQ2LTQ3ODMtYmMyMi1hZjI2ZWJkYmM3NTgifQ.vBAXmi6mxjWLZt5Bstd96GRPPxjb5hqKBMrVW58zYk4' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hour quality both young.","maxScore":66,"minScore":19,"description":"Style police different phone reveal group mission. Trial day parent former sound return thought yet. Remember but article peace follow trip six.","estimatedTime":"5 weeks","previewFileId":"f9129af3-e854-45ed-983f-3911da0a52f0","createdByUserId":"93912ca0-f6d6-4783-bc22-af26ebdbc758"}'
