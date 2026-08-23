@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTIzVDExOjU1OjQyLjc3MTI4MCIsInVzZXJfaWQiOiIzYTM5ZGYzNC03OTk3LTRiMDgtYjc4NS1lZDAxYjAxNDE3YWEifQ.e16e2b1MR6wy7KHcWAxHCRQhbco37f8cDVbfbwdwbPQ' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Continue play window as group high oil.","maxScore":67,"minScore":27,"description":"Stay must thousand school safe admit. Law say worry wide dream number rock. You according push seven you person.\nNo notice house painting. Force character always police consider.","estimatedTime":"3 weeks","previewFileId":"4510b1d2-274b-4b1e-be17-be6d5930338e","createdByUserId":"3a39df34-7997-4b08-b785-ed01b01417aa"}'

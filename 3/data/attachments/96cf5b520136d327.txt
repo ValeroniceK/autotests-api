@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTIzVDExOjU1OjQzLjcwMDAzOSIsInVzZXJfaWQiOiJlMDZjMTcwOC1kNjhkLTQ0OTktOTc4YS0zNGZjZDlmNjI1NjkifQ.yjB2BX9A0gzoxoJhQhhDZBnZwUajFfUPv1LQWGqLqi4' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ok call stand future.","maxScore":56,"minScore":26,"description":"Within century wind. Take up sing force activity benefit industry. Attack page us appear. Adult sell lose fall and maintain.","estimatedTime":"7 weeks","previewFileId":"be40a14c-7052-4f95-b17c-8e932a9bfd71","createdByUserId":"e06c1708-d68d-4499-978a-34fcd9f62569"}'

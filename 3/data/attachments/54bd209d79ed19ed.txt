@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTIzVDExOjU1OjQxLjU4NjkwNCIsInVzZXJfaWQiOiI4ZTA1ZWExOC03NDlmLTRhYzUtODgyYi05NzM5NDgyYzNhYzYifQ.RxZT0C57-ChH62h43-hzmLRaEaLKhpS9cXWJTbxWH_o' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Star wait action enough.","maxScore":90,"minScore":6,"description":"Hope life company instead from hospital response plant. Rather peace understand child real.\nYeah where stock once identify air. Southern current area on better.","estimatedTime":"3 weeks","previewFileId":"4b85f155-e57d-47f9-98fd-0af9e1f3174f","createdByUserId":"8e05ea18-749f-4ac5-882b-9739482c3ac6"}'
