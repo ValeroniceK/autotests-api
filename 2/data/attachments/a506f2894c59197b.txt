@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTIzVDExOjU1OjIyLjQ1ODI4NCIsInVzZXJfaWQiOiI3N2Q4NzdkMy03ZWI4LTQ3YjEtYjNlYy0zZDc1MTQ3NGI2NmUifQ.Y_cQB8a8XTrwcYhhYSRyVBJOVCObNT080wEdCt5oRoY' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"School matter understand democratic economy.","courseId":"8c033512-0051-4c55-a16f-7c480e914ea0","maxScore":61,"minScore":3,"orderIndex":50,"description":"History meeting ago environmental. Policy again senior can detail mean. Newspaper author big those just.\nEverything case difficult west. Town pressure level none detail past. Safe fact cover.","estimatedTime":"8 weeks"}'
