@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI5VDE0OjQyOjIyLjAxOTMyMiIsInVzZXJfaWQiOiIzYjA0NDMzNy0xMzdhLTQxYzktOGYyZS0xODljNDFhNmMwMTIifQ.W3ZZx30VjJYesWPqejBe7kD0rugJr47y8qcj4qPS8b4' \
+  -H 'content-length: 302' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rich above feeling prepare population heart effect.","courseId":"1237360c-90df-4e27-92fd-dd554b6aed54","maxScore":57,"minScore":23,"orderIndex":32,"description":"Put same range owner house. Them skill enjoy physical. Form letter prevent protect production do near.","estimatedTime":"5 weeks"}'

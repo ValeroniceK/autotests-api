@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI5VDE0OjQyOjIwLjc4ODI3NCIsInVzZXJfaWQiOiJkMzlhMDJkOC1iYjZlLTQzODItYmJhZC04YjI1NDk5M2QwMWYifQ.hvEMYMc70XIArvF3GPSbLpCIgeY_4Gc8C7xafz5tvEA' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Key lose chair physical.","maxScore":85,"minScore":19,"description":"And soldier determine guess available toward between. Development forward table.\nSerious phone still if against. Idea control scientist keep.","estimatedTime":"4 weeks","previewFileId":"062e4f53-3f91-4343-ae8f-8dd410aa9d7c","createdByUserId":"d39a02d8-bb6e-4382-bbad-8b254993d01f"}'

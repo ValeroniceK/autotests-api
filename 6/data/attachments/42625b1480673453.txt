@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI5VDE0OjQyOjIyLjAxOTMyMiIsInVzZXJfaWQiOiIzYjA0NDMzNy0xMzdhLTQxYzktOGYyZS0xODljNDFhNmMwMTIifQ.W3ZZx30VjJYesWPqejBe7kD0rugJr47y8qcj4qPS8b4' \
+  -H 'content-length: 330' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Term college manage do every eight show government.","maxScore":54,"minScore":10,"description":"Eight poor nation. Reduce place drug bad. Reveal building century over seat federal.","estimatedTime":"8 weeks","previewFileId":"78de3e5e-ee82-435f-bc6d-bc1fd821f84b","createdByUserId":"3b044337-137a-41c9-8f2e-189c41a6c012"}'

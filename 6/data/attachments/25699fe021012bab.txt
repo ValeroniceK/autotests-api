@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI5VDE0OjQyOjIxLjM4MTE3NyIsInVzZXJfaWQiOiJhY2I1ODE1Zi05ODQ5LTRlMDktOWVjMS1kYzI0Njk5NzIxNGYifQ._KU9GOigVcgvGR_30o97VvUhXOQnwcE4wJwYDFk10F8' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Notice name ability long traditional.","maxScore":57,"minScore":17,"description":"Free green property nation long personal note. Reduce policy glass usually cell require far. Third series American deal financial condition.","estimatedTime":"3 weeks","previewFileId":"08986469-7d3f-4ccd-82fe-303ce7d9cbd3","createdByUserId":"acb5815f-9849-4e09-9ec1-dc246997214f"}'

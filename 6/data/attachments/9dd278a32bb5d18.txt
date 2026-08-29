@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/21b31942-aaba-4b09-aa94-44e2804a4141' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI5VDE0OjQyOjIwLjc4ODI3NCIsInVzZXJfaWQiOiJkMzlhMDJkOC1iYjZlLTQzODItYmJhZC04YjI1NDk5M2QwMWYifQ.hvEMYMc70XIArvF3GPSbLpCIgeY_4Gc8C7xafz5tvEA' \
+  -H 'content-length: 259' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bit do these traditional smile style.","maxScore":83,"minScore":16,"description":"Information others exist beat opportunity main couple. Ask develop course.\nPainting goal federal forward. Increase course rather language.","estimatedTime":"4 weeks"}'

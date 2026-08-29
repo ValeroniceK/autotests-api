@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI5VDE0OjQyOjIwLjIwNjgzMSIsInVzZXJfaWQiOiJmMWUwM2M3Yi1iNWE2LTRkYTYtYjUzMi03Y2U5YzlhMTI3MmYifQ.SPaS50VgaP_2etgcv36E6l4ySONz0cBEHGcZD_o4se8' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rather shake matter else west former.","maxScore":59,"minScore":13,"description":"Produce building notice can yourself. Difficult stay first together such. Deep structure Mrs. Simple site debate American month environment.","estimatedTime":"5 weeks","previewFileId":"4e870e93-dc6f-4437-8920-772e041b897a","createdByUserId":"f1e03c7b-b5a6-4da6-b532-7ce9c9a1272f"}'

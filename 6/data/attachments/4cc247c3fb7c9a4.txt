@@ -1,0 +1,24 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/2f3dd239-6e6e-45f0-a264-49fa9dcb2695
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises/2f3dd239-6e6e-45f0-a264-49fa9dcb2695
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:95 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:49 Check exercise
+INFO     BASE_ASSERTIONS:base.py:35 Check that "id" equals to 2f3dd239-6e6e-45f0-a264-49fa9dcb2695
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Rich above feeling prepare population heart effect.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "course_id" equals to 1237360c-90df-4e27-92fd-dd554b6aed54
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 57
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 23
+INFO     BASE_ASSERTIONS:base.py:35 Check that "order_index" equals to 32
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Put same range owner house. Them skill enjoy physical. Form letter prevent protect production do near.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema
