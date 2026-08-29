@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI5VDE1OjQzOjEyLjMxOTUzNiIsInVzZXJfaWQiOiI0MDA5YzVlNS1jYjM4LTQzNzItOGY5MS05MjczYThlNGM1NjkifQ.QYRlYP6uR0CRSLQQEZlb__warBAqPRnuUeBJE5C4CfU' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Risk catch short let purpose.","maxScore":70,"minScore":13,"description":"Everyone clear war attack. See run share item huge product generation. Suffer government agreement team.\nMan leg walk lead toward international. Kind than traditional design attack type lose.","estimatedTime":"7 weeks","previewFileId":"54a6843e-deb3-429e-80b5-9326d9e62bff","createdByUserId":"4009c5e5-cb38-4372-8f91-9273a8e4c569"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI5VDE1OjQzOjEzLjQyMzE4OSIsInVzZXJfaWQiOiJjNWJmNjRhNy0yOGI3LTRmMWItYWQ5OS1hNDhkZDllZTRjZjQifQ.VINdYD_TIEGGwwObh5j_KFR32___j8ZqyOiq9dnRTGs' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"May recent especially one official.","maxScore":66,"minScore":12,"description":"Subject executive edge series. Senior say ground scene establish top. Us computer use assume across.\nWhile although else probably image. Several modern push share pattern successful begin.","estimatedTime":"10 weeks","previewFileId":"26c464be-993d-4a7c-a8f9-b90775730959","createdByUserId":"c5bf64a7-28b7-4f1b-ad99-a48dd9ee4cf4"}'

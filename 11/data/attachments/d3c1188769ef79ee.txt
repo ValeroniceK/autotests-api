@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI5VDE1OjQzOjE1LjQyNjQxMCIsInVzZXJfaWQiOiJhYzE1NzFmYi0zOGZiLTQ4ZTctYjdkMC0yZjBkNzZkNGFiZTEifQ.gf5L6wF31bIKWsAmfvM2yljZ5bLH63Yay1N6EJQzeyw' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Movie democratic lead.","maxScore":65,"minScore":28,"description":"Consider author prove result. How degree just response environment where brother. Stay avoid material health deal. Believe price race true develop little.","estimatedTime":"8 weeks","previewFileId":"f724a197-85b7-44ac-a696-9421f3b41009","createdByUserId":"ac1571fb-38fb-48e7-b7d0-2f0d76d4abe1"}'

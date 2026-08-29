@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI5VDE1OjQzOjE1LjY3MzUwNiIsInVzZXJfaWQiOiI1NzEwMGFmMi0wMmVjLTRkZDgtOTU0Yy03MDk4MjM0NWU5OWEifQ.onRBRhSpppOq54WzubAa3oePbjVz-kEkC2TnmHrlYC4' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Begin fund speak building father performance so.","maxScore":68,"minScore":1,"description":"Occur affect rest table hospital better. Someone official list serious century. Raise player evidence big company many maybe attack.\nAge site short bill develop. Couple dark buy.","estimatedTime":"8 weeks","previewFileId":"bd838885-0f21-466b-8226-7101e0c72f5a","createdByUserId":"57100af2-02ec-4dd8-954c-70982345e99a"}'

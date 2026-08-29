@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI5VDE1OjQzOjEzLjQyMzE4OSIsInVzZXJfaWQiOiJjNWJmNjRhNy0yOGI3LTRmMWItYWQ5OS1hNDhkZDllZTRjZjQifQ.VINdYD_TIEGGwwObh5j_KFR32___j8ZqyOiq9dnRTGs' \
+  -H 'content-length: 378' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Result recently get resource.","courseId":"2d0f5dd8-7229-4d43-b3ad-8ac8d2cc2cdc","maxScore":75,"minScore":28,"orderIndex":83,"description":"Table ten message prevent matter east smile.\nLive today road toward election. Turn tend voice but draw each yard. Whatever alone I resource light add.\nItself very war. Sign direction stop including.","estimatedTime":"9 weeks"}'

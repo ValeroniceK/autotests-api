@@ -1,0 +1,33 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/autotests-api/autotests-api/coverage-results
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/courses?userId=aaeaee93-9735-4b4c-a82c-ce769e97b090
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=aaeaee93-9735-4b4c-a82c-ce769e97b090
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:88 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:69 Check that length of "courses" equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:63 Check course
+INFO     BASE_ASSERTIONS:base.py:35 Check that "id" equals to 8650ccda-79fa-4f74-99d0-d97d9b1a8bd0
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Song reason say attack perhaps far.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 72
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 16
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Attack wish six animal. Radio event hold group soon win. Somebody safe thing game financial score anyone center. Place around sound knowledge wall.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 3 weeks
+INFO     FILES_ASSERTIONS:files.py:40 Check file
+INFO     BASE_ASSERTIONS:base.py:35 Check that "id" equals to 94a42b9f-51c2-45e2-86fb-2ed4fdc7f13a
+INFO     BASE_ASSERTIONS:base.py:35 Check that "url" equals to http://localhost:8000/static/tests/ac38e5c9-39ad-4637-a10e-3cf52bdf7197.png
+INFO     BASE_ASSERTIONS:base.py:35 Check that "filename" equals to ac38e5c9-39ad-4637-a10e-3cf52bdf7197.png
+INFO     BASE_ASSERTIONS:base.py:35 Check that "directory" equals to tests
+INFO     USERS_ASSERTIONS:users.py:36 Check user
+INFO     BASE_ASSERTIONS:base.py:35 Check that "id" equals to aaeaee93-9735-4b4c-a82c-ce769e97b090
+INFO     BASE_ASSERTIONS:base.py:35 Check that "email" equals to xbennett@example.net
+INFO     BASE_ASSERTIONS:base.py:35 Check that "last_name" equals to Stephens
+INFO     BASE_ASSERTIONS:base.py:35 Check that "first_name" equals to Joel
+INFO     BASE_ASSERTIONS:base.py:35 Check that "middle_name" equals to Stephanie
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI5VDE1OjQzOjExLjUyNDAxMiIsInVzZXJfaWQiOiJhYWVhZWU5My05NzM1LTRiNGMtYTgyYy1jZTc2OWU5N2IwOTAifQ.77c_kPg96wsFFWEEfTHU3LqE38zQZXmBq0gQT4W3kkA' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Song reason say attack perhaps far.","maxScore":72,"minScore":16,"description":"Attack wish six animal. Radio event hold group soon win. Somebody safe thing game financial score anyone center. Place around sound knowledge wall.","estimatedTime":"3 weeks","previewFileId":"94a42b9f-51c2-45e2-86fb-2ed4fdc7f13a","createdByUserId":"aaeaee93-9735-4b4c-a82c-ce769e97b090"}'

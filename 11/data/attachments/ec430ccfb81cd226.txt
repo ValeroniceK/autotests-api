@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI5VDE1OjQzOjE0LjU2MjIwOSIsInVzZXJfaWQiOiI1ZWQ1MDNhMi0wYTIzLTQ4Y2MtYmVlMC05MjVkNjVhZWQwMTMifQ.RUIVPk_tsfTdKbTdgiBNzcFeTwy8gMp6Y_tpiSQhocg' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Reality within plant nature.","maxScore":69,"minScore":3,"description":"Suffer trouble bank table factor. Hear medical top show ask or force. Themselves teach sure election live recognize old.\nHave tree game. Thing nothing each read name school inside.","estimatedTime":"4 weeks","previewFileId":"c9b3df52-abbe-4d16-a5ba-93644bae3af3","createdByUserId":"5ed503a2-0a23-48cc-bee0-925d65aed013"}'

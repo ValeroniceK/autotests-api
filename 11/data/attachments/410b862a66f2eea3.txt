@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/35f68160-92ef-41a2-b019-2ff236da2f74' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI5VDE1OjQzOjEyLjkwMDg5MyIsInVzZXJfaWQiOiIxM2I1YzgwZi01Yjg1LTRlMjEtYTlmOS03YmY5YTE1ODMyYTEifQ.Xvdj3wHQ_t0OTRyxfki4G5pwtjNtyeeW9qiBDUsG3CE' \
+  -H 'content-length: 307' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Out southern president.","maxScore":64,"minScore":12,"description":"Eat project food be candidate those window. Southern field nearly information fight.\nSuddenly land economic television just from western. Peace paper add choose point.\nRecently much end decide their.","estimatedTime":"2 weeks"}'

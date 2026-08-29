@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI5VDE1OjQzOjEyLjkwMDg5MyIsInVzZXJfaWQiOiIxM2I1YzgwZi01Yjg1LTRlMjEtYTlmOS03YmY5YTE1ODMyYTEifQ.Xvdj3wHQ_t0OTRyxfki4G5pwtjNtyeeW9qiBDUsG3CE' \
+  -H 'content-length: 301' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Popular walk last scene in.","maxScore":59,"minScore":21,"description":"Some training plant. Factor amount shake goal always.\nProduct vote behind so.","estimatedTime":"10 weeks","previewFileId":"ee348e8c-5bf2-4188-8cfe-2dafdfa438d1","createdByUserId":"13b5c80f-5b85-4e21-a9f9-7bf9a15832a1"}'
