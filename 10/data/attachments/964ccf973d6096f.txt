@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI5VDE1OjI2OjM4LjIwNzU5NSIsInVzZXJfaWQiOiJiMTYxNjRlNC05YTY0LTQyOWYtOTM2YS1kM2EzOTA1NjQxYWYifQ.oqNQOOfflHrz4x-qtKUF6AxXdAZAp8Sg3rpFyczDVHs' \
+  -H 'content-length: 342' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Study bank television fish.","maxScore":92,"minScore":28,"description":"Risk word team company amount fill day beat. Moment plant light unit natural bag. Billion challenge upon since similar.","estimatedTime":"10 weeks","previewFileId":"9f0926d1-3d80-4dd4-be23-f9c9cd2de324","createdByUserId":"b16164e4-9a64-429f-936a-d3a3905641af"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI5VDE1OjI2OjQyLjM2OTI5NSIsInVzZXJfaWQiOiI1ZTM1OGU0MS02MTZjLTQ5ZmYtOWUyMS1hOTBhYzMxMTIyYjAifQ.xScwTVPcRD8ibhz6lR2Ly251hmrdmxcXrU1OwyqJXKs' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Throw lawyer conference choice.","maxScore":91,"minScore":24,"description":"Class outside take pick. Show manager prove.\nAvoid act green wear body significant. Southern also its he question both. Place media however notice civil.\nQuality side almost finish dog.","estimatedTime":"1 weeks","previewFileId":"3ba882d8-deab-4723-b524-99840931c883","createdByUserId":"5e358e41-616c-49ff-9e21-a90ac31122b0"}'

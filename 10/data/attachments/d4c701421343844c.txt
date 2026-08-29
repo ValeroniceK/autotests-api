@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI5VDE1OjI2OjQyLjY0MjkyOCIsInVzZXJfaWQiOiJmNDgxZjIyZS0zNTlkLTRhZGYtYWFiOS0yNjg4NDNmZTZjMTIifQ.RzWvKr2idc0weawnLi3zrYjJjIz-U-j-Pjm_bzeW0i8' \
+  -H 'content-length: 437' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Something family including drop also especially.","maxScore":84,"minScore":16,"description":"Section guess fear treatment. Turn partner develop road trouble ask race. Who perform energy war follow grow entire pretty.\nDiscussion home rest all. Girl likely participant protect discussion.","estimatedTime":"6 weeks","previewFileId":"d9884a75-5093-4421-99a9-df7dd6f42db7","createdByUserId":"f481f22e-359d-4adf-aab9-268843fe6c12"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/009008ae-f85b-43ff-9416-798a6fc17430' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI5VDE1OjI2OjM5LjY4NjkzMiIsInVzZXJfaWQiOiI0ZDg2ZTc1OS00YTM4LTQ4MjctOTEyNy1jZjZiNGY2MzJkMDMifQ.sBf_fPOCtLXW8hYLAWBCeOEKZpq-quViWMUCCt6XjIs' \
+  -H 'content-length: 186' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Action enough wind.","maxScore":56,"minScore":19,"description":"Town everyone happy attorney. Suddenly institution draw rise fire economy quite all.","estimatedTime":"3 weeks"}'

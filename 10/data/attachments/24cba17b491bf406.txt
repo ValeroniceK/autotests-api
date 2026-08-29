@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI5VDE1OjI2OjM5LjEwNjEyMyIsInVzZXJfaWQiOiIwMTQ1ZWU5YS0xMDE3LTQwOTMtYjkwMC02Y2Y1ZTJjNmI4MDcifQ.I2lbNWJEnYHUG8k7Da9drB_m9wNWQriZrWIyAhVS_V0' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Break behavior before everyone sure fly.","maxScore":93,"minScore":15,"description":"Help could hold adult position church computer. Central board stay.\nOwner church thought dog much wide alone. Traditional ever still once.","estimatedTime":"7 weeks","previewFileId":"442ca3ec-771c-4aa3-8ed3-3b0fe7261dc6","createdByUserId":"0145ee9a-1017-4093-b900-6cf5e2c6b807"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI5VDE1OjI2OjQxLjE2NzgzNCIsInVzZXJfaWQiOiI3NDc3YTljMy1kN2NhLTRmNjEtOGY1Yy1iOWIwNjVjNzRlNWQifQ.aau7jcZ1D-Xr_PSpqy4ipIHBnnDeUT8p1_hJvMXqm3Y' \
+  -H 'content-length: 322' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Possible high for measure music.","maxScore":51,"minScore":21,"description":"Energy here result in church early gas. Support expert kind. Person best allow white much pick.","estimatedTime":"9 weeks","previewFileId":"97bb6acf-f2fe-4ad8-856d-e4d8d55908bf","createdByUserId":"7477a9c3-d7ca-4f61-8f5c-b9b065c74e5d"}'

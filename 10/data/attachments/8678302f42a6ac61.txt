@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI5VDE1OjI2OjQwLjI3NzIwNyIsInVzZXJfaWQiOiI1YTMwMmI0OC1iNGQ2LTQzNjQtOGE2MC0yNmFhNmYwMGQwZDQifQ.fzY2Dqg8UXynDX3LQEBQxyGj9s4cGw1cHwj0dsnDsRk' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"General conference figure figure whatever.","maxScore":69,"minScore":1,"description":"Southern daughter away almost beat black conference. With perhaps town have.\nGrowth green site yes. Wonder painting price audience one report.","estimatedTime":"8 weeks","previewFileId":"3ff1e036-2a21-46bd-9eb4-e022d6316b37","createdByUserId":"5a302b48-b4d6-4364-8a60-26aa6f00d0d4"}'
