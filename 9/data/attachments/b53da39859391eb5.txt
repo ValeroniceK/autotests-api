@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI5VDE1OjExOjI1LjIxMzQ3NCIsInVzZXJfaWQiOiI2YTYwOWFkMy03YWYwLTQwOWQtYjU2My02ODAwNjFmN2E0ZmEifQ.cYeJe9a1Jr0F-IYzZxoLe46wWG62bVMqZTwyoGxgSHE' \
+  -H 'content-length: 294' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Since those nothing bar gas.","maxScore":76,"minScore":2,"description":"Mention north part cover analysis. Program two discuss four clear story.","estimatedTime":"1 weeks","previewFileId":"d4e22da3-f4da-4729-b652-c264c9e5ce9e","createdByUserId":"6a609ad3-7af0-409d-b563-680061f7a4fa"}'

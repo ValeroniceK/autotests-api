@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI5VDE1OjExOjI0LjI5MTM4NCIsInVzZXJfaWQiOiJjOThhYWI0OC0wYTVmLTQ2ZjAtYjg1ZS1lNGY4YjlkZTY1YWUifQ.X9JZjw5Shfh7fnPhdUo3z_5qdTp5MkJPHecRgK7Hh1M' \
+  -H 'content-length: 414' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Entire student family day.","maxScore":75,"minScore":6,"description":"Arrive final add these identify discover analysis act. Why specific glass fly detail identify relationship say.\nBed education shake. List site use spend pick reduce. Bag style say main center.","estimatedTime":"10 weeks","previewFileId":"da1bb036-4d26-4e9c-b2ea-dc95745f7a56","createdByUserId":"c98aab48-0a5f-46f0-b85e-e4f8b9de65ae"}'

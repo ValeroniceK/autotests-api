@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/b0745e28-87b9-43d6-a24e-7e08393fa381' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI5VDE1OjExOjI2LjQxNzcxNiIsInVzZXJfaWQiOiI1NWMwZDZhYS02NmViLTQ5YjgtYmUxYS04NzVlOWVhOWMzZDcifQ.Zj7sSys1-NZOzzLs0XAEFm7LU3s3cxFhvHAi4HhWLq8' \
+  -H 'content-length: 321' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Will on maintain remember allow.","maxScore":84,"minScore":13,"orderIndex":82,"description":"Fill blood again apply today provide buy.\nPoint avoid rule team. Measure each deep financial building road might. Small development family southern have bad. Become project record learn us.","estimatedTime":"1 weeks"}'

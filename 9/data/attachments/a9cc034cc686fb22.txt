@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI5VDE1OjExOjI2LjQxNzcxNiIsInVzZXJfaWQiOiI1NWMwZDZhYS02NmViLTQ5YjgtYmUxYS04NzVlOWVhOWMzZDcifQ.Zj7sSys1-NZOzzLs0XAEFm7LU3s3cxFhvHAi4HhWLq8' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Respond pass effect blood number some owner coach.","maxScore":88,"minScore":23,"description":"Agent technology Congress who already offer I from. Return face really ago line.\nCall piece whole look stay learn personal phone. Production majority develop blue candidate.","estimatedTime":"5 weeks","previewFileId":"be82a72f-9ef2-42c5-9808-c69bef922272","createdByUserId":"55c0d6aa-66eb-49b8-be1a-875e9ea9c3d7"}'

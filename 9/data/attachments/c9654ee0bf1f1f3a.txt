@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI5VDE1OjExOjIzLjEyNzA2OCIsInVzZXJfaWQiOiJhZTQ4NDE3MC01YzZjLTQxMDUtYTZhZS05OGZmMjBhNjE4ZDgifQ.W86k4koLAbSpFKcarVG_1ows_Ta0hhPk6UHdK_xJssY' \
+  -H 'content-length: 337' \
+  -H 'content-type: application/json' \
+  -d '{"title":"And where able model just off.","maxScore":91,"minScore":16,"description":"Defense new education contain type. Experience popular image tell building receive respond. Put girl pass color.","estimatedTime":"4 weeks","previewFileId":"4f997e53-949a-42c8-ae21-43c16a7837d1","createdByUserId":"ae484170-5c6c-4105-a6ae-98ff20a618d8"}'

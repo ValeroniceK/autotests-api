@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI5VDE1OjExOjI1LjQ4NjUxOSIsInVzZXJfaWQiOiJiYjc0NTE2Mi0xOTY3LTRhNmQtYjVkMC02MzljNTY3NTdkODYifQ.c3sADilZcjV85cZGcA4OYAY4JOYmIDX8Ii_ty7fRRD8' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Door that mention interesting old.","maxScore":87,"minScore":7,"description":"Help fight world leave word year huge. New yard area detail word simple service. Late voice box score manage air.\nThird bit change Congress ever chance. Reflect man yes wear.","estimatedTime":"4 weeks","previewFileId":"86a1b59e-dd42-4d55-bbff-904385b9ed8a","createdByUserId":"bb745162-1967-4a6d-b5d0-639c56757d86"}'

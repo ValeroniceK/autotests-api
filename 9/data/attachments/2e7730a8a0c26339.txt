@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/d1bf02a6-7924-4ef3-9c5b-3c6cee430059' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI5VDE1OjExOjI0LjAxODIwNCIsInVzZXJfaWQiOiIzMzI5YjM4NC1lOTYwLTQ2ODQtODYwOC04ZTY0Njk0MjdkODYifQ.n-lzxouYDXYdvF2X-hbrfzKaj077JjXHyKJAcsO_WkI' \
+  -H 'content-length: 209' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Opportunity policy sister rest.","maxScore":98,"minScore":10,"description":"Arm home but condition rock. Create theory either year own forget.\nSeason picture time spring.","estimatedTime":"9 weeks"}'

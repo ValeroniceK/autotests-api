@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI5VDE1OjExOjIyLjU0MTI2OCIsInVzZXJfaWQiOiI5MGQ3OWM5Yi0zYzQ3LTQ4NTgtOWM1MC0yOGIyOTMyMjAxNWQifQ.cY9dNeFTbqNflLCmcKJHgFB3jaexkyvLSL8bJp60wR0' \
+  -H 'content-length: 431' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Before maybe window audience focus mouth night.","maxScore":71,"minScore":20,"description":"Lead speak whether run miss firm. Approach voice cultural find large end yeah.\nDebate argue rock water artist. Among effort may decide official kind remain. Between degree production yard.","estimatedTime":"3 weeks","previewFileId":"140ebb2e-46db-4318-8488-854e099ecca7","createdByUserId":"90d79c9b-3c47-4858-9c50-28b29322015d"}'

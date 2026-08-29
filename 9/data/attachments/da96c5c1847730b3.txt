@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI5VDE1OjExOjI0LjAxODIwNCIsInVzZXJfaWQiOiIzMzI5YjM4NC1lOTYwLTQ2ODQtODYwOC04ZTY0Njk0MjdkODYifQ.n-lzxouYDXYdvF2X-hbrfzKaj077JjXHyKJAcsO_WkI' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Exactly stay eight best behind without agent.","maxScore":75,"minScore":4,"description":"Film know business. Provide gas themselves word glass.\nAgent movement plan wear us peace. Against data place.\nCondition same research health local party. His art seven economy.","estimatedTime":"2 weeks","previewFileId":"c8a2e3a7-a895-4579-ba4b-4992fe2cd74e","createdByUserId":"3329b384-e960-4684-8608-8e6469427d86"}'

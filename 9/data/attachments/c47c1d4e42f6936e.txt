@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/acbbf3f7-c2c9-4406-8768-25ddfa97b0cb
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises/acbbf3f7-c2c9-4406-8768-25ddfa97b0cb
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:95 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:49 Check exercise
+INFO     BASE_ASSERTIONS:base.py:35 Check that "id" equals to acbbf3f7-c2c9-4406-8768-25ddfa97b0cb
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Individual behavior term when create officer box.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "course_id" equals to 80ac858a-7b7f-41c2-9722-cee5376cb190
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 51
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 2
+INFO     BASE_ASSERTIONS:base.py:35 Check that "order_index" equals to 23
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Blood most detail former prepare coach develop teach.
+Possible compare official few. Admit friend act be manage. Enter would movement bring.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 10 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema
