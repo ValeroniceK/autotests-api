@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI5VDE0OjUxOjM3LjIwMDA1MiIsInVzZXJfaWQiOiJlNjU5NGJjYy0yN2FhLTRjYzItOTU2Yy03ZDc1Mzc5Yjg3NWUifQ.a6iDEjA6DxZ8ovdrU0raOcW9ov17OtIV20HECQolKxU' \
+  -H 'content-length: 431' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rest task everything away parent together.","maxScore":57,"minScore":21,"description":"Interest use bit data edge performance blood. Until point those ability write his range so. Name recent better.\nLong pass size or build mother. Sit option Congress store face painting son bill.","estimatedTime":"8 weeks","previewFileId":"7087ce42-9481-4404-851e-410a53fbeb06","createdByUserId":"e6594bcc-27aa-4cc2-956c-7d75379b875e"}'

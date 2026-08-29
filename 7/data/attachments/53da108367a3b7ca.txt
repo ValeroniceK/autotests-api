@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI5VDE0OjUxOjM1Ljk1Mjc5OCIsInVzZXJfaWQiOiJmMzgxZjBhNy04Y2QzLTQ3MjktYTJiMi05MjE1OWEzYjM1NzkifQ.oN1fACP8b79-9eWc_rmLhenqGe0HhaxNSkIBJvHmOSo' \
+  -H 'content-length: 424' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Republican prevent simply foot miss exactly.","maxScore":52,"minScore":30,"description":"Word month member follow whether catch. Present summer chance. Cell account born.\nLong away government spend statement task year. Military ten computer health somebody him make energy.","estimatedTime":"7 weeks","previewFileId":"568891bf-f343-4e82-981b-9e41eb441d97","createdByUserId":"f381f0a7-8cd3-4729-a2b2-92159a3b3579"}'

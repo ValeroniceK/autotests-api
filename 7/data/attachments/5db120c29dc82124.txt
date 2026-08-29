@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI5VDE0OjUxOjM1LjM3NDMyNyIsInVzZXJfaWQiOiJlYmI3YmQ2ZC1hYjM1LTQyNzAtYjBhMy01MTg2ZTBiMDBmNGEifQ.lv9ZLkwRUe6NBCCxABRgPWJiNZN_rVIRi_kGbRG9iLY' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Agreement important training cold dinner behavior doctor.","courseId":"66b9a778-4afa-421c-a8e0-ad08287ce39f","maxScore":71,"minScore":1,"orderIndex":78,"description":"Size a cold either sure.\nWide guess especially along technology. Candidate color leg author.\nWife enough spring return economy. Benefit check modern get board include.","estimatedTime":"2 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI5VDE0OjUxOjM0LjczNzExNSIsInVzZXJfaWQiOiIzMGQwNjc2My0wYzBiLTRkODMtOTY4Yy04YTcwMTQwNTAwOWMifQ.Lu-oi0FkPtBAB4eOjcJ9MQ3jFPkPurSUFO6ZwJIGjIA' \
+  -H 'content-length: 389' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ball director line apply rate across back fill.","courseId":"f32ea164-7689-4260-8d4d-98d8ba58b55c","maxScore":90,"minScore":25,"orderIndex":87,"description":"Attorney guess about expert early wife. During then newspaper suddenly.\nPublic message generation coach likely them though.\nTurn evidence law provide heart. Break participant around suddenly.","estimatedTime":"9 weeks"}'

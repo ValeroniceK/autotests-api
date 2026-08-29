@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/f4aa6294-4673-49cd-9ce7-ac1093343ceb' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI5VDE0OjUxOjM0LjE1MTAwMyIsInVzZXJfaWQiOiIxZjYxZjM4Ny02MDIwLTRiN2MtOGE5Ny0xYzQyMjM4YWViNzQifQ.lp4BnkfpioIU2UwrjZ8lIED7wyq1zIg7WgHP3HrMM-E' \
+  -H 'content-length: 295' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Side care especially smile build education read.","maxScore":60,"minScore":25,"description":"Long say result wonder just sit. Effort stop thought score increase. Trade surface laugh outside agreement discuss analysis.\nExist oil street. Stock crime husband.","estimatedTime":"5 weeks"}'

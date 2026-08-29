@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI5VDE0OjUxOjM0LjczNzExNSIsInVzZXJfaWQiOiIzMGQwNjc2My0wYzBiLTRkODMtOTY4Yy04YTcwMTQwNTAwOWMifQ.Lu-oi0FkPtBAB4eOjcJ9MQ3jFPkPurSUFO6ZwJIGjIA' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Second stand hear drive consider.","maxScore":76,"minScore":21,"description":"Article set garden consider card stuff really either.\nPicture wear deep similar white realize resource.\nSell shake let lot out. North police fall team vote large.","estimatedTime":"8 weeks","previewFileId":"6a8d09d7-2d4c-4ddb-9c0c-53c1f9c312b6","createdByUserId":"30d06763-0c0b-4d83-968c-8a701405009c"}'

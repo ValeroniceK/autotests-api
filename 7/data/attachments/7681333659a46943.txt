@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI5VDE0OjUxOjMzLjU3MDQzNSIsInVzZXJfaWQiOiIwYzVhOTJiZC1hMWI4LTQwZmUtYmFkZS1lZWNlNjMyNDlhMmIifQ.DkL6TmJf6ulPm8OXIRNXiRoSkXXJVp4zBkXVUhqXOFc' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Side size explain task just region.","maxScore":77,"minScore":16,"description":"Activity your miss one this.\nProperty protect there process until. Just ground world too pretty clearly position bring. Force animal ground consider before professional such represent.","estimatedTime":"2 weeks","previewFileId":"f44d0347-f28d-46dd-875b-24955dee4054","createdByUserId":"0c5a92bd-a1b8-40fe-bade-eece63249a2b"}'
